@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <title>Employe Form</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+  <fieldset>
+    <legend>
+      <h2>Form</h2>
+    </legend>
+    <form id="form">
+      <input type="text" id="name" name="name" placeholder="Name"><br><br>
+	  <input type="date" id="dob" name="dob" placeholder="DOB"><br><br>
+      <input type="text" id="job" name="jon" placeholder="Job"><br><br>
+      <input type="text" id="exp" name="exp" placeholder="Experience"><br><br>
+      <input type="button" value="Submit" id="btn" onclick="Submit()">
+      <input type="reset">
+    </form>
+  </fieldset>
+
+
+  <br>
+  <div id="msg"></div>
+
+
+  <fieldset>
+    <legend>
+      <h2>Add Employe Data from Local Storage</h2>
+    </legend>
+
+    <table border="2" id="table">
+      <tr>
+        <td class="col">Name</td>
+		<td class="col">DOB</td>
+        <td class="col">Job</td>
+        <td class="col">Experience</td>
+        <td class="col">Action</td>
+      </tr>
+    </table>
+  </fieldset>
+
+
+  <script src="index.js"></script>
+</body>
+
+</html>
